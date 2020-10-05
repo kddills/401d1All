@@ -1,0 +1,7 @@
+ Readings: Kali Linux and Metasploit
+
+https://www.kali.org/docs/introduction/what-is-kali-linux/
+
+https://www.csoonline.com/article/3379117/what-is-metasploit-and-how-to-use-this-popular-hacking-tool.html
+
+Kali is a free source system and it comes preinstalled with metasploit. Kali Linux is made for penetration testing and security auditing. There are hundreds of tools that are made to preform security tasks, like Penetration Testing, Security research, Computer Forensics and also Reverse Engineering. Metasploit is a penetration testing framework that makes hacking simple. It is a great tool that is used by both attackers and defenders. All you do is point metasploit at your intended target, choose an exploit and what payload to drop and hit enter. It’s that easy, but with lots of steps. 
