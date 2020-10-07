@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+#########################
+# Script:                 Ops 401 02
+# Author:                 Kimberly Dills
+# Date of last revision:  10/6/2020
+# Description of purpose: Uptime Sensor Tool
+#########################
+
+import os, time 
+
+while True: 
+    ip="127.0.0.1" 
+    response = os.system(f"ping {ip}")
+    if 0 == response:
+        print(f"UP {ip} Ping Successful")
+    else:
+        print(f"DOWN {ip} Ping Unsuccessful")  
+    time.sleep(2)
+    
+    
+    
+    
+    # End
