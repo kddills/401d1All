@@ -28,7 +28,7 @@ while(1):
         # Instance of email message
         msg = EmailMessage()
         # Write the subject
-        msg["Subject"]= " I know you see me."
+        msg["Subject"]= " Hello Kitty!"
         msg["From"]="opschallenge04@gmail.com"
         msg["To"]="opschallenge04@gmail.com"
         response = os.system(f"ping -c 1 " +ip)
