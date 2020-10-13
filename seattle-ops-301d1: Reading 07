@@ -1,0 +1,11 @@
+Readings: Protecting Data at Rest with Devic
+
+There is data in transit which is data in motion, and data actively moving from one location to another such as across the internet or through a private network. Data protection in transit is the protection of this date while it’s traveling from one network to another network or being transferred from a local storage device to a cloud storage device. Wherever there is data moving, effective data protection measures for in transit data are critical as data is often considered less secure while in motion. 
+Data at rest is data that is not actively moving from a device to another device or network such as stored data on a hard drive, laptop or flash drive, or even archived/stored in some other way. Data protection at rest aims to secure inactive data stored on any device or network. While data at rest is sometimes considered to be less vulnerable than data in transit, attackers can often find data at rest a more valuable target than data in motion. The risk profile for a data in transit or data at rest depends on the security measures that are in place to secure data in either state. 
+
+
+
+
+Resources:
+https://digitalguardian.com/blog/data-protection-data-in-transit-vs-data-at-rest 
+
