@@ -1,0 +1,14 @@
+Readings: Data file encryption
+
+The CIA Triad refers to three basic principles/objectives in information security, namely: confidentiality, integrity, and availability. It's been proven that, in order to establish a secure system, you need to achieve these three objectives. These are crucial to business file transfers. 
+Normally, in order to apply all three elements of the CIA Triad, you would need to employ disparate solutions and integrate them. The problem with this approach is that it can be quite complex and would therefore require considerable time and expertise before you can come up with a complete solution.
+
+You’ll sometimes see MD5, SHA-1, or SHA-256 hashes displayed alongside downloads during your internet travels, but not really know what they are. These seemingly random strings of text allow you to verify files you download aren’t corrupted or tampered with. You can do this with the commands built into Windows, macOS, and Linux.
+
+Hashes are the products of cryptographic algorithms designed to produce a string of characters. These strings have a fixed length, regardless of the size of the input data. Take a look at the above chart and you’ll see that both “Fox” and “The red fox jumps over the blue dog” yield the same length output.
+Now compare the second example in the chart to the third, fourth, and fifth. You’ll see that, despite a very minor change in the input data, the resulting hashes are all very different from one another. Even if someone modifies a very small piece of the input data, the hash will change dramatically.
+
+Reading:
+https://www.jscape.com/blog/implementing-the-cia-triad-when-transferring-files-through-the-internet
+
+https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/
