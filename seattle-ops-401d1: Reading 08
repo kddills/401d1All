@@ -1,0 +1,8 @@
+Readings: Data Loss Prevention and Data Cla
+Data loss prevention (DLP) is a set of tools and processes that are used to ensure that sensitive data is not lost, misused, or accessed by unauthorized users. Data loss prevention software classifies regulated, confidential and business critical data and identifies violations of policies that are defined by organizations or that are within a predefined policy pack, typialy driven by regulatory compliance such as HIPPA,PCI-DSS, or GDPR. Once the violations are identified, the DLP enforces remediation with alerts, encryption, and other protective actions to prevent end users from accidentally or maliciously sharing data that could put the organization at risk. 
+
+
+
+Resources:
+
+https://digitalguardian.com/blog/what-data-loss-prevention-dlp-definition-data-loss-prevention 
