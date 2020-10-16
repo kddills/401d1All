@@ -1,0 +1,13 @@
+Readings: Public Key Infrastructure (PKI)
+
+Public Key Infrastructure (PKI) is a technology for authenticating users and devices in the tech world. The main idea is to have one or more trusted parties digitally sign into the documents certifying that a particular cryptographic key belongs to that certain user or device. The key can then be used as an identity for a user in digital networks. A public key infrastructure relies on digital signature technology which uses public key cryptography. The basic idea is that the secret key of each entity is only known by that entity and is used for signing. The key is called a private key. There is another key that is derived from it called a public key, which is used to verify signatures but can not be used to sign. The public key is made available to anyone, and is typically included in the certificate document. 
+
+
+
+
+Resources:
+
+https://www.ssh.com/pki/
+
+https://www.youtube.com/watch?v=3yuad7_bszE
+
