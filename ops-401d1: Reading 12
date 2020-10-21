@@ -1,0 +1,7 @@
+Readings: Intrusion Detection and Prevention Systems (IDS/IPS)
+
+A network intrusion detection system NIDS can be an integral part of an organization’s security, but they are just one aspect of manyin a safe system. They have great options and also some weaknesses that also need to be thought of. One significant issue with an IDS is that they regularly alert you to false positives in many cases that end up being more frequent than actual threats. 
+
+
+Resources:
+https://blog.rapid7.com/2017/01/11/the-pros-cons-of-intrusion-detection-systems/ 
