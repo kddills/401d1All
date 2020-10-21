@@ -1,0 +1,11 @@
+Readings: Cloud Architecture Security
+
+A VPC is a virtual private cloud in the cloud. You can have complete control over your virtual networking environment. You can select your own private IP address range, create subnets and also configuration of route tables and network gateways. The major benefit of having a VPC is that it helps in aspects of cloud computing like privacy, security and preventing loss of data. 
+
+
+The Amazon Virtual Cloud enables you to launch AWS resources into a virtual network that you have defined. The virtual network closely resembles a traditional network that you would operate in your own data center, with all the benefits of using the scalable infrastructure of AWS
+
+Resources:
+https://medium.com/tensult/intro-to-vpc-548b69f1bd1f
+
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
