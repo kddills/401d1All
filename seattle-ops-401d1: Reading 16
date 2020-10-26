@@ -1,0 +1,24 @@
+Readings: Threat Analysis, Cyber Kill-Chain, and Stuxnet
+
+The Cybersecurity Kill Chain is a model that describes the steps an attacker must complete to carry out a successful attack. This is a model that is made up of 7 sequential steps: 
+
+1.Reconnaissance
+2.Weaponization
+3.Delivery
+4.Exploitation
+5.Installation
+6.Command and Control
+7.Actions on Objectives
+
+In order to disrupt the attack, one or more of these steps must be broken for the entire chain to fail. The kill chain is more than a model for how an attack is executed, it’s also a blueprint for building a good cybersecurity program. By using multiple layers of security throughout each phase, we make it more and more challenging for the attacker to be successful. 
+
+
+
+Resources: 
+
+https://thecisoperspective.com/index.php/2020/03/27/breaking-the-kill-chain-a-defensive-approach/
+
+Videos: 
+
+https://www.youtube.com/watch?v=II91fiUax2g
+
