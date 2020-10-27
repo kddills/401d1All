@@ -1,0 +1,8 @@
+Readings: Threat Analysis Using MITRE ATT&CK
+The ATT&CK framework is developed by Mitre Corp., and has been around for since 2003. It is a living and growing document of threat tactics and techniques that have been observed from millions of attacks on enterprise networks. The acronym stands for Adversarial Tactics, Techniques, and Common Knowledge. It first started as an internal project that changed into a huge growing database of public knowledge base that numerous security vendors and consultants have picked up. 
+
+The goal was for Mitre researchers to break down and classify the attacks in a consistent and clear manner that can make it easier to compare and contrast them to find how the attacker exploited networks and endpoints and penetrated your network. 
+
+Resources:
+
+https://www.csoonline.com/article/3267691/what-is-mitres-attandck-framework-what-red-teams-need-to-know.html
