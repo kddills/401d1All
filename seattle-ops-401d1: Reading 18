@@ -1,0 +1,10 @@
+Readings: Web Application Threat Modeling with OWASP, DREAD
+Threat modelling works to identify, communicate, and understand threats and mitigations within the context of protecting something valuable. It can be applied to a wide range of things, including software, applications, systems, networks, distributed systems, things in the internet of things, business processes and more. There are fre technical products which can’t be threat modelled. Threat modelling can be done at any stage of development, preferably early so that the findings can inform the design. 
+
+
+
+Resources: 
+
+https://owasp.org/www-community/Application_Threat_Modeling
+
+https://csrc.nist.gov/publications/detail/sp/800-154/draft#pubs-abstract-header
