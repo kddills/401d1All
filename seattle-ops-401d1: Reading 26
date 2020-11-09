@@ -1,0 +1,11 @@
+Readings: Setting up Splunk SIEM
+
+The first reading was about the automated incident response and all the steps that goes into it. You can update your firewall to block the IP. You can limit the damage and find out how many systems are vulnerable before it spreads further. Once you have contained the breach, you can investigate what happened. You can block any further communication with the malicious domain. You need to if your systems are vulnerable and if so what actions to take. You have a team of people handling the investigation but you have to keep track of the incident response activities that they are on. Once you detect ransomware activity on a server storing critical data, the alarm occurs in the middle of the night. And finally orchestrate security to find the right solutions for your organizations needs. 
+
+The next reading was about cybersecurity automation is the way of the future. Cybersecurity products designed to automate specific processes are widespread. SOAR products are purpose built tools that orchestrate activities between other security tools and perform specific automation activities in response to identified threats. 
+
+Resources:
+
+https://www.forbes.com/sites/forbestechcouncil/2019/08/20/is-cybersecurity-automation-the-future/?sh=2097be67589c
+
+https://cybersecurity.att.com/blogs/security-essentials/automated-incident-response-in-action-7-killer-use-cases
