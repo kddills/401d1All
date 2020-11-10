@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+##  /\__/\
+#  (=^ .^=)
+#   (")(")__/  
+##
+# Script Name: Ops Challenge 06
+# Author:      Kimberly Dills
+# Date of last revision: 11/9/2020
+# Description of purpose: Running Linux terminal commands in Python
+
+import logging
+import os
+
+def verification(user_input):
+    isFile = os.path.isfile(user_input)
+    if isFile is False:
+        print("Directory not found.")
+    else:
+        file_crawler(user_input)
+
+# Declaration of variables:
+
+operwhoami= os.popen("whoami").read()
+operipa= os.popen("ip a").read()
+operlshw= os.popen ("sudo lshw -short").read()
+
+# Declaration of functions
+
+# Main
+
+print (operwhoami)
+print (operipa)
+print (operlshw)
+
+
+try:
+    verification()
+
+except Exception as msg:
+    print(msg)
+    logging.exception(msg)
+
+print('Logging completed')
+
+logging.basicConfig(filename='/home/osboxes/test_log.txt', level=logging.ERROR, format='%(asctime)s:%(levelname)s:%(message)s')
+print('Logging started')
+logging.debug('Information to debug')
+logging.info('All the information..')
+logging.warning('Warning!')
+logging.error('An error has happened')
+logging.critical('There is a critical issue happening')
+# print('Logging end')
+
+
+# End
