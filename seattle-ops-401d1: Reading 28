@@ -1,0 +1,9 @@
+Readings: ELK Stack Operations with Security Onion
+The article that covered what an ELK stack is started with what exactly a stack is, and explained that it’s a collection of software products that are designed to work together, such as the LAMP stack that we worked on earlier in 301. The ELK stack includes ElasticSearch, LogStash, and Kibana. ELK is a very popular and widely used stack for processing log files and how to store them. It is configurable, scalable and versable. It can be set up in a simple to use way or can be configured very complexly. The ElasticSearch can be used to store data and used in cybersecurity to monitor systems. Logstash is to work with the log files directly or you can also process them. Kibana is the graphical part of ElasticSearch and lets you customize different data and have different dashboards for different teams. 
+
+You can use Security Onion to monitor traffic and consume logs from your servers and workstations so that you can hunt across all of your network and host logs at the same time.Security Onion can provide visibility into your network traffic and context around alerts and events, but it will require a commitment from the security team to review alerts and monitor the network activity. Security Onion brings together three core functions, full packet capture, network, endpoint detection, and powerful analysis tools.
+
+Resources:
+https://docs.securityonion.net/en/2.3/introduction.html#overview
+
+https://www.bmc.com/blogs/elk-stack/
