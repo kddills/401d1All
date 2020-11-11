@@ -1,0 +1,6 @@
+Readings: Adding Data Sources with Splunk SIEM
+When installing data collection on Windows, but must deploy the Universal Forwarder and install that on your host that you want to gather the data from. Universal forwarders use limited resources. Splunk forwarders encourages the use of a universal forwarder to get data in from a remote Windows host. The installation options in a consistent way with limited post installation configuration. The performing as simple and clean of an installation as possible often only adds post installation configuration for the forwarder to communicate with a deployment server for all configuration. 
+
+Resources: 
+
+https://lantern.splunk.com/hc/en-us/articles/360043721173-Getting-data-into-Splunk-from-Windows-endpoints
