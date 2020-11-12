@@ -1,0 +1,6 @@
+Readings: Threat Hunting with Security Onion
+
+Threat hunting is an active and proactive activity which means it is something that is done in real time. Threat hunters don’t wait until something occurs for them to start, but are already working. Threat hunters are already inside the system and seeing any early signs of the system being compromised. The output of the threat hunt shows the results of what we get is a compromise assessment. When you have a successful threat hunt, hopefully all systems are in great shape, but do some further investigation.  The alerts go off you SIEM, but with threat hunting, you are out actively going in and looking for the threat. 
+
+Resources:
+https://www.activecountermeasures.com/what-is-threat-hunting-and-why-is-it-so-important-video-blog/
