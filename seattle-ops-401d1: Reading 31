@@ -1,0 +1,7 @@
+Readings: Malware Detection with YARA Rules
+YARA is a tool that can help you to track down malware in your computer or network. You create YARA rules to help you find what you want. Attackers may reuse code in different malware campaigns. YARA rules can look for that code along with some of the malware’s functions and features. YARA can work for email as well. You can also write YARA rules for different parts of the malware code itself. Phishing messages come in and you can end up catching them with a YARA rule.
+
+
+Resources:
+
+https://archerint.com/what-are-yara-rules/
