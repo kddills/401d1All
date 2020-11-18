@@ -1,0 +1,15 @@
+Readings: Malware Traffic Analysis with Wireshark
+“Malware is defined as a software designed to infiltrate or damage a computer system without the owner's informed consent. Any software performing malicious actions, including information stealing, spying, etc can be referred to as malware.” Malware analysis breaks down the malware, investigates its characteristics, unravels its functionality, traces the malware’s origin, and tries to predict the impact. The Malware Analysis Process goes like this…
+Step 1:Capture the malware
+Step 2:Build a malware lab
+Step 3:Install your tools
+Step 4:Record the baseline
+Step 5:Commence your investigation
+Step 6:Document the results
+
+Key Stages of Malware Analysis is when you can break down malware analysis into three key stages. These all coincide with the types of malware analysis listed above, giving you a closer look. 
+
+
+
+Resources: 
+https://www.toolbox.com/security/data-security/articles/what-is-malware-analysis-definition-types-stages-best-practices/
