@@ -1,0 +1,13 @@
+Readings: Malware Analysis with PEStudio, Ghidra
+
+PeStudio is a great all in one surface analysis tool for Portable Executables. PeStudio is a Windows application that is usually run on a system sometimes in a virtual machine that is specifically dedicated for malware analysis. The application can be run on its own without impacting the integrity of the host machine being affected. You can simply drag and drop files to be analyzed very simply. PeStudio is linked to Virustotal to lookup and tell you if there are any viruses that are flagged. 
+
+Ghidra is a tool that is used to reverse engineer the page and look at the code on the back side of the site. You can see the language that the site is written in and how the program works. Ghidra allows budding software engineers to take apart programs and sites to see how they work and learn how it works. 
+
+
+
+
+Resources: 
+https://medium.com/@aubsec/pestudio-standard-f2ada4e8564
+
+https://helpdeskgeek.com/free-tools-review/what-is-ghidra-and-why-is-it-important/
