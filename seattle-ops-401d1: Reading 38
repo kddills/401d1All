@@ -1,0 +1,8 @@
+Readings: Attacking Juice Shop with Burp Suite
+
+Burp Suite is a tool that is used to aid in penetration testing on web applications on HTTP and HTTPS. The primary tool is a proxy designed to allow the analysis and editing of web traffic. The proxy can intercept web requests and responses and read and edit them in real time before they reach their respective destinations. Versions are available for all OS systems. The proxy allows you to configure which domains have their web traffic intercepted and what kind of traffic is shown. Intercepting web requests is helpful when you can edit them to test how the website reacts to unusual requests. 
+
+
+
+Resources:
+https://www.technipages.com/what-is-burp-suite
