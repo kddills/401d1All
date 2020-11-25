@@ -1,0 +1,7 @@
+Readings: Automated AppSec with ZAP
+
+This is an overview of getting started with ZAP to perform security testing, even if you don’t have a background in security testing. Software security testing is the process of assessing and testing a system to discover security risks and vulnerabilities of the system and its data. There is no universal terminology. Penetration testing also known as pentesting is carried out as if the tester was a malicious external attacker with a goal of breaking into the system and either stealing data or carrying out some sort of denial of service attack. 
+
+Resources:
+
+https://www.zaproxy.org/getting-started/
