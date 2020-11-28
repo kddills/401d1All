@@ -4,11 +4,12 @@
 #   (")(")__/  
 ##
 # Script:                 Ops 401 38
-# Author:                 Kimberly Dills
+# Author:                 Abdou Rockikz
 # Date of last revision:  11/25/2020
+# Modified by:            Kimberly Dills
 # Description of purpose: XSS Vulnerability Detection 
 
-### : Install requests bs4 before executing this in Python3
+### Install requests bs4 before executing this in Python3
 
 # Import libraries
 
@@ -19,14 +20,16 @@ from urllib.parse import urljoin
 
 # Declare functions
 
-### TODO: Add function explanation here ###
 ### In your own words, describe the purpose of this function as it relates to the overall objectives of the script ###
+
+# This function will scan through the given URL page and get all information from the HTML page 
 def get_all_forms(url):
     soup = bs(requests.get(url).content, "html.parser")
     return soup.find_all("form")
 
-### TODO: Add function explanation here ###
 ### In your own words, describe the purpose of this function as it relates to the overall objectives of the script ###
+
+# This function will return a list with "soup objects" gets each form detail( such as action and method ) and attrubutes (input type)
 def get_form_details(form):
     details = {}
     action = form.attrs.get("action").lower()
@@ -41,8 +44,9 @@ def get_form_details(form):
     details["inputs"] = inputs
     return details
 
-### TODO: Add function explanation here ###
 ### In your own words, describe the purpose of this function as it relates to the overall objectives of the script ###
+
+# This function submits the form details from a dictionary list that contains form information and populates the input fields with strings containing with the variable "value". Then it returns the HTTP response
 def submit_form(form_details, url, value):
     target_url = urljoin(url, form_details["action"])
     inputs = form_details["inputs"]
@@ -60,12 +64,13 @@ def submit_form(form_details, url, value):
     else:
         return requests.get(target_url, params=data)
 
-### TODO: Add function explanation here ###
 ### In your own words, describe the purpose of this function as it relates to the overall objectives of the script ###
+
+# This function will scan for the XSS vulnerability when given the designated URL 
 def scan_xss(url):
     forms = get_all_forms(url)
     print(f"[+] Detected {len(forms)} forms on {url}.")
-    js_script = ### TODO: Add HTTP and JS code here that will cause a XSS-vulnerable field to create an alert prompt with some text.
+    js_script = "<Script>alert('Stop! This is a vulnerable site!')</script>" ## Added HTTP and JS code here that will cause a XSS-vulnerable field to create an alert prompt with some text.
     is_vulnerable = False
     for form in forms:
         form_details = get_form_details(form)
@@ -79,12 +84,34 @@ def scan_xss(url):
 
 # Main
 
-### TODO: Add main explanation here ###
 ### In your own words, describe the purpose of this main as it relates to the overall objectives of the script ###
+
+# This function takes the give URL and gets all the HTML forms and prints out the number of forms detected, then it performs all the forms and submits the forms with inputing the vaulues of the text and searches the inputs feilds with Javascript code. If the Javascript code is injected and executed successfully then it is a definate sign that the web page is XSS vulnerable
 if __name__ == "__main__":
     url = input("Enter a URL to test for XSS:") 
     print(scan_xss(url))
 
-### TODO: When you have finished annotating this script with your own comments, copy it to Web Security Dojo
-### TODO: Test this script against one XSS-positive target and one XSS-negative target
-### TODO: Paste the outputs here as comments in this script, clearling indicating which is positive detection and negative detection
+### Finished: When you have finished annotating this script with your own comments, copy it to Web Security Dojo
+### Finished: Test this script against one XSS-positive target and one XSS-negative target
+### Finished: Paste the outputs here as comments in this script, clearling indicating which is positive detection and negative detection
+
+# DVWA Login page in Security Dojo
+# dojo@dojo-VirtualBox:~/Desktop/class38/ python3 Opschall38.py
+# Enter a URL to test for XSS:http://dvwa.local/login.php
+# [+] Detected 1 forms on http://dvwa.local/login.php.
+# False
+
+# Pointed the script at the website as referenced in the tutorial - "https://www.thepythoncode.com/article/make-a-xss-vulnerability-scanner-in-python"
+# dojo@dojo-VirtualBox:~Desktop/class-38 python3 Opschall38.py
+# Enter a URL to test for XSS:https://xss-game.appspot.com/level1/frame
+# [+] Detected 1 forms on https://xss-game.appspot.com/level1/frame.
+# [+] XSS Detected on https://xss-game.appspot.com/level1/frame
+# [*] Form details:
+# {'action': '',
+# 'inputs': [{'name': 'query',
+#             'type': 'text',
+#            'value': "<Script>alert('Stop! This is a vulnerable "
+#                     "site!')</script>"},
+#           {'name': None, 'type': 'submit'}],
+# 'method': 'get'}
+# True
