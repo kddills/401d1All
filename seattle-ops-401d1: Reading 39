@@ -1,0 +1,8 @@
+Readings: SQLi with Burp Suite, WebGoat
+SQL injections is a type of method used for inserting, filtering, and retrieving information from a database. SQL injection attacks are injunctions into a vulnerability on a web app. SQL is a full programming language, and some of the basic SQL commands are Create, Read, Update, and Delete (CRUD) in the information inside your tables. Most web applications and frameworks revolve around these same ideas. The syntax of these commands is important to get them to run properly. You can create and update data with SQL, as well as delete or add data. 
+
+
+
+Resources:
+
+https://www.varonis.com/blog/sql-injection-identification-and-prevention-part-1/
