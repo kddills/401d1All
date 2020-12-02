@@ -1,0 +1,7 @@
+Readings: Reconnaissance
+Penetration testing also known as a pen test, is a simulated cyber attack against a computer system to try and check for any vulnerabilities. Pen testing can involve the attempting breaching of a number of application systems to discover the vulnerabilities, such as unsanitized inputs that are susceptible to code injection attacks. The results that are provided from the penetration test can be used to fine tune and configure your WAF security policies and to patch the vulnerabilities that were discovered. The five steps of a Penetration Test include; 1. Reconnaissance, 2. Scanning, 3. Gaining Access, 4. Maintaining access, 5. Analysis
+
+
+Resources: 
+https://www.imperva.com/learn/application-security/penetration-testing/
+https://www.youtube.com/watch?v=pL9q2lOZ1Fw&ab_channel=TechInsider
