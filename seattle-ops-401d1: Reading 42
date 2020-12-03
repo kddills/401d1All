@@ -1,0 +1,7 @@
+Readings: Pass the Hash with Mimikatz
+
+Mimikatz was created as a proof of concept to show that Microsoft that their authentication protocols were vulnerable to attack. What ended up happening was that it was actually widely used and downloaded by hackers in the past 20 years. It’s essential to keep up with the latest Mimikatz updates to understand the techniques hackers will use to infiltrate networks. Mimikatz is an open source application that allows users to view and save authentication credentials. Attackers use Mimikatz to steal credentials and escalate privileges, endpoint protection software and anti-virus systems will detect and delete it, in most cases. But, pentesters can use Mimikatz to detect and exploit vulnerabilities in your networks so you can fix them before a hacker actually is able to do that themselves. 
+
+
+Resources: 
+https://www.varonis.com/blog/what-is-mimikatz/
