@@ -1,0 +1,11 @@
+Readings: Sniffing and Evasion
+Sniffing is a process of monitoring and capturing all data packets passing through a given network. Sniffers are used by networking and system administrator to monitor and troubleshoot network traffic. Attackers use sniffers to capture data packets containing sensitive information such as passwords, and account information. Sniffers can be hardware or software installed in the system. 
+
+Firewalls are deployed as blocking mechanisms to identify and prevent malicious requests. They filter out malicious packets based on the filter rules. Even with the firewalls in place, there are certain evasion techniques used by attackers to bypass the firewall. By these techniques, an attacker can achieve the attacks he intends to do even if the firewall is placed between the web application and the client.
+
+
+
+Resources:
+https://www.greycampus.com/opencampus/ethical-hacking/sniffing-and-its-types
+
+https://www.youtube.com/watch?v=3cjQCA6qYPc
