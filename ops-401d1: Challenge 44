@@ -17,13 +17,13 @@ sockmod.settimeout(timeout)
 
 hostip = input("What Ip address? ")
 portno = input("What Port? ")
+
 def portScanner(portno):
-    result = sockmod.connect_ex((hostip. portno))
-    if (result == 0):
+    if sockmod.bing((hostip, int(portno))): \
         print("Port closed")
     else:
         print("Port open")
-# Main
-portScanner(hostip, portno)
 
-# End
+portScanner(port)
+
+
